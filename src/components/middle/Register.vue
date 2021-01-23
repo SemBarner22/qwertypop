@@ -1,11 +1,11 @@
 <template>
     <div class="register form-box">
-        <div class="header">Register</div>
+        <div class="header">Register URL</div>
         <div class="body">
             <form @submit.prevent="onRegister">
                 <div class="field">
                     <div class="name">
-                        <label for="original">Login</label>
+                        <label for="original">Enter URL</label>
                     </div>
                     <div class="value">
                         <input id="original" name="original" v-model="original"/>
